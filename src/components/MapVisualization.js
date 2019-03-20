@@ -58,7 +58,6 @@ class MapVisualization extends Component {
     this.props.getDroneMetricData();
   }
   render() {
-    console.log("DroneData", this.props.data);
     const { data } = this.props;
     return (
       <Card style={styles.card}>
